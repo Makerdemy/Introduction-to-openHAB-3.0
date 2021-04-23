@@ -1,0 +1,50 @@
+/*
+sitemap <sitemapname> label="<title of the main screen>" {
+    [all sitemap elements]
+}
+*/
+
+sitemap smarthome label="Smart Home"{
+
+//    Default item=Home label="Home"
+//    Default item=sunrise label="Sunrise"
+
+    
+    Frame label="Transformation Example" {
+        Default item=It_Switch
+    }
+
+    Frame label="Icons Example" {     
+        
+        Text item=Li_Home label="Lighting Home" icon="light" {
+
+            Default item=It_Dimmer label="Type Dimmer"
+            Default item=It_Dimmer2 label="Type Dimmer2"
+
+        }
+        
+    }
+
+    Frame label="lighting example" {
+    
+        Colorpicker item=It_Color
+        Colorpicker item=It_Switch
+        Slider      item=It_Color
+        Switch      item=It_Color   mappings=[ON=On,OFF=Off,25=twentyfive]
+    }
+
+    Frame label="heating example" {
+        Default     item=It_Number      label="Default: Target Temp"
+        Setpoint    item=It_Number      label="Setpoint [%.1f °C]" step=1 minValue=7 maxValue=26
+        Selection   item=It_Number      label="Selection [%s]"     mappings=[7=Frost,18=Standby,23=Comfort]
+        Switch      item=It_Number      label="Switch [%s]"        mappings=[7=Frost,18=Standby,23=Comfort]
+   }
+
+/*    Frame label="Informations" {
+        Image url="http://openhab:8080/start/img/openhab-logo.png" refresh=60000
+        Video url="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+        Webview url="https://openhab.org" height=10
+    }
+*/
+
+}

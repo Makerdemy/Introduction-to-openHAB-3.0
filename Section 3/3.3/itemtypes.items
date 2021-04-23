@@ -1,0 +1,22 @@
+// itemtype itemname "label [state format]" <icon> (group1, group2...) ["tag1","tag2"...] {bindingconfig}
+ 
+Group               It_Group            "Type Group"              <group>            (Home)
+ 
+Switch              It_Switch           "Type Switch"             <poweroutlet_eu>   (It_Group,Li_Living,Li_Ground,Li_Home)          
+Dimmer              It_Dimmer           "Type Dimmer"             <png>              (It_Group,Li_Living,Li_Ground,Li_Home)               
+Color               It_Color            "Type Color"              <colorpicker>      (It_Group)               
+
+Number              It_Number           "Type Item"               <temperature>      (It_Group)     
+ 
+Rollershutter       It_Rollershutter    "Type Rollershutter"      <rollershutter>    (It_Group, Rs_Home)     
+ 
+Contact             It_Contact          "Type Contact"            <window>           (It_Group, Room_Garage)                        
+ 
+DateTime            It_Date             "Type Date"               <calendar>         (It_Group)                             
+                      
+String              It_String           "Type String"             <error>            (It_Group)                              
+   
+Player              It_Player           "Type Player"             <mediacontrol>     (It_Group, Room_Living)                           
+Image               It_Image            "Type Image"              <smiley>           (It_Group)                           
+Location            It_Location         "Type Location"           <vacation>         (It_Group)
+

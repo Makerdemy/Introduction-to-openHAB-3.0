@@ -1,0 +1,4 @@
+Download Links for Additional Software:
+
+1. Arduino IDE: https://www.arduino.cc/en/software 
+2. MQTTLens: https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm?hl=en 

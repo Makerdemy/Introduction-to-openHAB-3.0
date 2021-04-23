@@ -1,0 +1,41 @@
+Group Home                 "Home"
+
+// Location View
+// Levels
+Group Lev_First            "First Floor"        (Home)
+Group Lev_Ground           "Ground Floor"       (Home)
+Group Lev_Basement         "Basement"           (Home)
+Group Lev_Outdoor          "Outdoor"            (Home)
+
+// Rooms
+// First Floor Rooms 
+Group Room_Bed            "Bed Room"            (Lev_First)
+Group Room_Kids           "Kids Room"           (Lev_First)
+Group Room_Bath           "Bath Room"           (Lev_First)
+
+// Ground Floor Rooms
+Group Room_Living         "Living Room"         (Lev_Ground)
+Group Room_Dining         "Dining Room"         (Lev_Ground)
+Group Room_Kitchen        "Kitchen"             (Lev_Ground)
+
+// Basement Rooms
+Group Room_Workshop       "Workshop"            (Lev_Basement)
+
+// Outdoor
+Group Room_Garage         "Garage"              (Lev_Outdoor)
+
+// Functional View
+// Lighting
+Group Li_Home            "Light Home"           (Home)
+Group Li_Ground          "Light Ground Floor"   (Lev_Ground)
+Group Li_Dining          "Light Dining"         (Room_Dining)
+
+// Rollershutter
+Group Rs_Home            "RS Home"              (Home)
+Group Rs_First           "RS First Floor"       (Lev_First)
+Group Rs_Bedroom         "RS Bedroom"           (Room_Bed)
+
+// Logical View
+Group Astro              "Astro"                (Home)
+Group Astro_Home         "Astro Home"           (Astro)
+Group Astro_Work         "Astro Work"           (Astro)

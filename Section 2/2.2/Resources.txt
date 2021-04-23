@@ -1,0 +1,5 @@
+Download links:
+
+1. openHABian: https://github.com/openhab/openhabian/releases 
+2. Balena Etcher: https://www.balena.io/etcher/ 
+3. PuTTY: https://www.putty.org/

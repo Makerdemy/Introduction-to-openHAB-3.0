@@ -1,0 +1,1 @@
+openHAB Item Types: https://www.openhab.org/docs/configuration/items.html#type 

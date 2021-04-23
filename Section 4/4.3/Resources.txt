@@ -1,0 +1,2 @@
+1. MQTT Binding: https://www.openhab.org/addons/bindings/mqtt/ 
+2. MQTT Things and Channels Binding: https://www.openhab.org/addons/bindings/mqtt.generic/ 
